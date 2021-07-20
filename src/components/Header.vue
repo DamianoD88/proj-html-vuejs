@@ -11,7 +11,7 @@
           <!-- parte destra -->
         <span class="dx col-6" >
             <ul class="start">
-              <li><a class="first-menu" href="#">Home</a></li>
+              <li><a class="first-menu" href="#">Home <i class="fas fa-chevron-down"></i></a></li>
               <li><a class="first-menu" href="#">Order Online</a></li>
               <li><a class="first-menu" href="#">About</a></li>
               <li><a class="first-menu" href="#">News</a></li>
@@ -20,6 +20,21 @@
         </span>
         <!-- end parte destra -->
         
+      </div>
+
+      <div class="delivered">
+        <div class="hungry">
+          Hungry?
+        </div>
+        <div class="great">
+          Great Food <br>
+          <span class="deliver">
+            Delivered
+          </span>
+        </div>
+        <button>
+          
+        </button>
       </div>
       
   </div>
@@ -51,6 +66,7 @@ header {
     .row {
       display: flex;
       align-items: center;
+      
       .sx {
         width: 35%;
         display: inline-block;
@@ -67,6 +83,7 @@ header {
       }
 
     }
+    
 
     ul {
         display: flex;
@@ -92,14 +109,36 @@ header {
                 text-decoration: none;
                 color: white;
                 font-size: 15px;
-                &:hover
-                &:active {
+                &:hover {
                 color: #fcdc31;
                     
                 }
             }
         }
     }
+  .delivered {
+      margin-left: 237px;
+      text-align: left;
+      margin-top: 200px;
+
+    .hungry {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+    .great {
+      font-weight: 700;
+      font-size: 70px;
+      letter-spacing: -5px;
+      color: #fcdc31;
+    }
+
+    .deliver {
+        color: #fff;
+      }
+    
+  }
 }
 
 
