@@ -1,24 +1,24 @@
 <template>
   <div id="app">
     <Header />
-    <!-- <Main />
-    <Footer /> -->
+    <Main />
+    <!-- <Footer /> -->
   </div>
 </template>
 
 <script>
 
-import Header from './components/Header.vue';
-// import Main from './components/Header.vue';
+import Header from '@/components/Header.vue';
+import Main from '@/components/Header.vue';
 // import Footer from './components/Header.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-    // Main,
+    Main,
     // Footer
-  }
+  },
 }
 </script>
 
