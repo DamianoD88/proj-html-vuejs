@@ -35,7 +35,7 @@
         <button type="button" class="btn btn-danger rounded-pill text-uppercase p-1 px-3 mt-4 fw-bold">View Our Menu</button>
       </div>
       <div id="second-row" class="row">
-        <ul class="p-3 mb-2 bg-light text-dark d-flex justify-content-center">
+        <ul class="p-3 mb-2 bg-white text-dark d-flex justify-content-center">
           <li class="options mx-5 mt-4" ><i class="far fa-clock"></i> 24/7 DELIVERY</li>
           <li class="options mx-5 mt-4"><i class="fas fa-hamburger"></i> OVER 100 DISHES</li>
           <li class="options mx-5 mt-4"><i class="fas fa-mobile-alt"></i> IN APP ORDERING</li>
